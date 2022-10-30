@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1C9C9"
+    tools:context=".UploadVideo">
+
+    <EditText
+        android:id="@+id/inputVideoName"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/white"
+        android:hint="Enter Title"
+        android:padding="1dp"
+        android:textColor="@color/black" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/VideoViewAdd"
+        android:layout_below="@+id/inputVideoName"
+        android:layout_marginTop="1dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:text="Upload Video"
+        android:id="@+id/btnVidUpload"
+        android:layout_marginTop="100dp" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_below="@id/VideoViewAdd"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"/>
+
+
+</RelativeLayout>

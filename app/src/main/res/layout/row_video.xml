@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/videodisplay"
+        android:layout_width="match_parent"
+        android:layout_height="607dp" />
+
+    <TextView
+        android:id="@+id/titlevideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:gravity="center"
+        android:text="VideoTitle"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progvideo"
+        android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>

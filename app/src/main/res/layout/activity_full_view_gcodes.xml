@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullViewGcodes">
+
+    <ImageView
+        android:id="@+id/GFullView_Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="396dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ravana" />
+
+    <TextView
+        android:id="@+id/GFullView_Activity_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:layout_below="@+id/GFullView_Activity"
+        android:text="Guitar Chordes"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Descrption"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/Gcodedes"
+        android:layout_below="@+id/GFullView_Activity_textview"/>
+
+
+    <Button
+        android:id="@+id/GlycDlt"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gcodedes"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/updateGcode"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GlycDlt"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Upload" />
+
+
+
+
+</RelativeLayout>

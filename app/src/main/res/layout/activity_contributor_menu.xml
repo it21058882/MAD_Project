@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.madoriginal.CutomerMenu"
+    android:backgroundTint="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="329dp"
+            android:layout_height="324dp"
+            android:layout_marginBottom="120dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/vidshow"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:backgroundTint="#E33266"
+                android:text="@string/Pianochordsadmin"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/lycshow"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:backgroundTint="#57199B"
+                android:onClick=" Edit Lyrics"
+                android:text="Lyrics"
+                android:textSize="8sp"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/gutshow"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:backgroundTint="#E23266"
+                android:text="@string/Guitarchordsadmin"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/sgbshow"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:backgroundTint="#57189A"
+                android:text="View All Suggestions"
+                android:textSize="8sp"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/viewcountall"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:backgroundTint="#E13266"
+                android:text="Item Count"
+                android:textSize="8sp"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/addmember"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:backgroundTint="#57189A"
+                android:text="Add Member"
+                android:textSize="8sp"
+                app:iconPadding="8dp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="382dp"
+            android:layout_height="285dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="14dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/LogOut"
+            android:layout_width="183dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="49dp"
+            android:backgroundTint="#E23266"
+            android:text="@string/LogOut"
+            android:textSize="8sp"
+            app:iconPadding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

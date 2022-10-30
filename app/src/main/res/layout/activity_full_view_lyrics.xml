@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullViewLyrics">
+
+    <ImageView
+        android:id="@+id/FullView_Activity"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ravana" />
+
+    <TextView
+        android:id="@+id/FullView_Activity_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:gravity="center"
+        android:text="Lyrics"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Descrption"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/lycdes"
+        android:layout_below="@+id/FullView_Activity_textview"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="View Count"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/count"
+        android:layout_below="@+id/lycDlt"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lycDlt"
+        android:layout_below="@+id/lycdes"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Delete"/>
+
+
+    <Button
+        android:id="@+id/updatelyc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lycDlt"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Update" />
+
+
+</RelativeLayout>

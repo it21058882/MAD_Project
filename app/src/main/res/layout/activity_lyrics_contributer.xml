@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Contibuter.LyricsContributer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_marginTop="200dp"
+        >
+
+        <Button
+            android:id="@+id/viduplodactivity"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginRight="16dp"
+            android:background="#2B2424"
+            android:backgroundTint="#0E0C0C"
+            android:drawableLeft="@drawable/ic_upload"
+            android:drawableTint="#E8E1E1"
+            android:text="Upload"
+            android:textSize="19dp"
+            app:strokeColor="#FDF3F3" />
+
+        <Button
+            android:id="@+id/vidupdateactivity"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_update_24"
+            android:drawableTint="#FBF7F7"
+            android:text="Update"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/viddltactivity"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_delete"
+            android:drawableTint="#F8F3F3"
+            android:text="Delete"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Button" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMember">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="889dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="ADD MEMBER"
+            android:layout_marginTop="30dp"
+
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/nameadd"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:hint="Enter Name" />
+
+        <EditText
+            android:id="@+id/emailadd"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameadd"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:hint="Enter Email" />
+
+        <EditText
+            android:id="@+id/textPassword"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailadd"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:hint="Enter Password" />
+
+        <EditText
+            android:id="@+id/textPassword2"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textPassword"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:hint="ReEnter Password" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:id="@+id/addmemberbtn"
+            android:layout_below="@id/textPassword2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

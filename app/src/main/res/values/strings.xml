@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Chill Box</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="textview">textview</string>
+    <string name="Pianochords">Piano Chords</string>
+    <string name="Lyrics">Lyrics</string>
+    <string name="Guitarchords">Guitar Chords</string>
+    <string name="Suggestionbox">Suggestion Box</string>
+    <string name="Contributerlogin">Contributer Login</string>
+    <string name="Addfeedback">Add Feedback</string>
+    <string name="Viewmysuggesions">View my suggesions</string>
+    <string name="Updatefeedback">Update Feedback</string>
+    <string name="Addfeedback2">Add Feedback</string>
+    <string name="Pianochordsadmin">Piano Chords</string>
+    <string name="Guitarchordsadmin">Guitar chords</string>
+    <string name="LogOut">Log Out</string>
+</resources>
