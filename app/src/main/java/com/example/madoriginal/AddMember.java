@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import java.util.Objects;
 
 public class AddMember extends AppCompatActivity {
-
+// minidu edited
 
     Button addmember;
     EditText Name;
